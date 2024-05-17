@@ -1,0 +1,8 @@
+{
+    "name": "kul/html",
+    "autoload": {
+        "psr-4": {       
+            "app\\": "app"
+        }
+    }
+}

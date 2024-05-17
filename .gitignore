@@ -1,0 +1,4 @@
+/vendor/
+/app/images/
+/app/php/Config.php
+/app/database/dbconn.php
