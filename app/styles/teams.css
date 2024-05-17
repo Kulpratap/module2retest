@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(13, 11, 11, 0.1);
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+}
+.logo{
+  display: inline-block;
+  font-size: 25px;
+  color:#000;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+span a{
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  padding: 30px;
+  margin-left: 50px;
+}
+nav a {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  padding: 30px;
+  margin-left: 50px;
+}
+nav a:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.team-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.team-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.player-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.player {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.player-name {
+  font-weight: bold;
+}
+
+.player-details {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .team-container {
+    padding: 15px;
+  }
+
+  .player-details {
+    font-size: 12px;
+  }
+}
+input[type="submit"] {
+  margin-top: 15px;
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding around text */
+  text-align: center; /* Center text horizontally */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Display as inline block */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+input[type="submit"]:hover {
+  background-color: #d32f2f; /* Darker red background color on hover */
+}
